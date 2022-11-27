@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Libre';
+    src: url(../../Arquivos/font/LibreBaskerville-Bold.otf);
+}
+
+.Header{
+    background-color: #130530;
+    text-align: center;
+    height: 3em;
+}
+.Header > a{
+    display: inline-block;
+    font-size: 110%;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    margin: auto;
+    margin-top: -8px;
+}
+.Icone{
+    position: absolute;
+    border-radius: 20px;
+    background-image: url(../../Arquivos/Icone.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid transparent;
+    color: transparent;
+    height: 2.2em;
+    width: 2.2em;
+    margin-left: -35%;
+    margin-top: 4px;
+}
+
+/* Home */
+.Home{
+    background-image: url(https://alamedadossabores.com.br/wp-content/uploads/2018/01/alameda_dos_sabores_fundo_slider_deque_frente_mar-1-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.HomeBlur{
+    height: 100%;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+}
+.HomeBlur > h1{
+    margin-top: 8%;
+    font-size: 10vh;
+    text-align: center;
+    color: #B32728;
+    text-shadow: 0.4vh 0.4vh 0.6vh #FF7223;
+}
+.HomeBlur > h3{
+    font-size:2.5vh;
+    text-align: center;
+    color: #F23132;
+    text-shadow: 0.1vh 0.1vh 0.1vh #FFD312;
+}
+.HomeBlur > h5{
+    margin-top: 10px;
+    color: #B32728;
+    font-size: 2vh;
+}
+.HomeBlur > p{
+    font-size: 5vh;
+    width: 26em;
+    margin: auto;
+    text-align: center;
+    color: #B32728;
+    text-shadow:  0.1vh 0.1vh 0.2vh #FFD312;
+    user-select: all;
+}
+/* Api */
+.Api{
+    text-align: center;
+    background: #130530;
+    border-bottom: 2px solid #2e0f6b;
+    border-radius: 0px 0px 20px 20px;
+}
+.Api > div >  input{
+    all: unset;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+    width: 40%;
+    height: 2em;
+    text-align: center;
+    border-bottom: 2px solid #FF7223;
+    border-radius: 0px 0px 4px 4px;
+    color: white;
+}
+.Api > div >  h1{
+    margin-top: 5px;
+    color: #4d11bd;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #1f0e3f;
+}
+.Api > div >  button{
+    all: unset;
+    margin-top: 20px;
+    width: 10%;
+    height: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    transition: .5s;
+}
+.Api > div >  button:hover{
+    color: #4d11bd;
+    text-shadow: 1px 1px 1px #31126b;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.Api > div >  input::placeholder{
+    color: white;
+}
+li{
+    list-style: none;
+}
+.Container{
+    background: #3a2366;
+    border: 2px solid #FF7223;
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.Container > h1{
+    margin-top: 20px;
+}
+.Container > img{
+    width: 40em;
+    height: 22em;
+    margin-top: 20px;
+}
+.Container > button{
+    all: unset;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+/* Cardapio */
+.Cardapio{
+    border: 0.5vh solid #1f0e3f;
+    border-radius: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+}
+.Cardapio > h1,.Cardapio > h2,.Cardapio > h5{
+    display: block;
+    text-align: right;
+    overflow: auto;
+    margin-top: 0.5vh;
+}
+.Cardapio > h1::-webkit-scrollbar,.Cardapio > h2::-webkit-scrollbar,.Cardapio > h5::-webkit-scrollbar{
+    width: 0px;
+}
+.Cardapio > h1{
+    font-size: 8vh;
+    color: #F23132;
+}
+.Cardapio > h2{
+    font-size: 4vh;
+    color: #4d11bd;
+}
+.Cardapio > h5{
+    font-size: 2vh;
+    color: #FF7223;
+}
+.Cardapio > img{
+    height: 40vh;
+    width: 40vh;
+    text-align: left;
+    margin-top: -18.6vh;
+    border-radius: 20px 0px 0px 20px;
+}
+.ContainerCardapio{
+    border: 0.5vh solid white;
+    height: 90vh;
+    width: 160vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-image: url(https://images2.alphacoders.com/474/474157.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.BordaCa{
+    border-bottom: 2vh solid whitesmoke;
+    width: 32vh;
+    margin: auto;
+    text-align: center;
+    height: 14vh;
+    border-radius:50%;
+    margin-top: -6vh;
+}
+.BordaCa > h1{
+    position: absolute;
+    margin-top:7vh;
+    text-align: center;
+    font-size: 3.5vh;
+    margin-left: 7.7vh;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px yellow;
+}
+
+.ContainerCardapio > span{
+    border: 4px solid white;
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+    border-radius: 50%;
+    background: #FF7223;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.ContainerCardapio > span > img{
+    width: 15vh;
+    height: 15vh;
+    position: absolute;
+}
+.CardapioCont{
+    border: 2px solid #FF7223;
+    background: #070707;
+    overflow: auto;
+    margin: auto;
+    margin-top: 2em;
+    width: 80%;
+    height: 72vh;
+    border-radius: 20px;
+}
+.CardapioCont::-webkit-scrollbar{
+    width: 0px;
+}
